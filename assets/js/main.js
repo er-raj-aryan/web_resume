@@ -99,7 +99,8 @@ let resumeButton = document.getElementById('resume-button')
 // Html2pdf options
 let opt = {
     margin:       0,
-    filename:     'Resume.pdf',
+    // padding:      10,
+    filename:     'Raj_Software_Engineer.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
     jsPDF:        {  format: 'a4', orientation: 'portrait' }
